@@ -60,4 +60,9 @@ def cadastrar(nome, idade):
         "idade": idade
     }
     return print(data)
-cadastrar("Demonia Franjuda", 666)
+
+nome = input("Digite o seu nome: ")
+idade = int(input("Digite a sua idade: "))
+
+cadastrar("Nome", "Idade")
+
