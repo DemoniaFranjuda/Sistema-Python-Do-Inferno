@@ -54,3 +54,10 @@ def dividirDoisNumeros(nota_01, nota_02):
 
 #dividirDoisNumeros(24,98)
 
+def cadastrar(nome, idade):
+    data = {
+        "nome": nome,
+        "idade": idade
+    }
+    return print(data)
+cadastrar("Demonia Franjuda", 666)
