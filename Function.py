@@ -64,5 +64,4 @@ def cadastrar(nome, idade):
 nome = input("Digite o seu nome: ")
 idade = int(input("Digite a sua idade: "))
 
-cadastrar("Nome", "Idade")
-
+cadastrar(nome, idade)
